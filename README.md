@@ -47,13 +47,17 @@ project/
 
 git clone https://github.com/your-username/quotepro-acord-microservice.git
 cd quotepro-acord-microservice
+
+
 2. Install Requirements
 
 pip install flask
 
+
 3. Run the Server
 
 python main.py
+
 
 📮 How to Use
 Endpoint
@@ -74,13 +78,13 @@ json
   }
 }
 Sample Response
-json
-Copy
-Edit
+
 {
   "payload": "<ACORD><Insurance><PolicyNumber>QP-98765</PolicyNumber><CustomerName>John Doe</CustomerName><CustomerEmail>john@example.com</CustomerEmail></Insurance></ACORD>",
   "type": "acord-xml"
 }
+
+
 🧪 Testing
 Use Postman or curl:
 
@@ -94,6 +98,8 @@ curl -X POST http://localhost:5000/convert \
     "email": "alice@example.com"
   }
 }'
+
+
 📌 Future Improvements
 Add authentication for secure access
 
