@@ -50,9 +50,11 @@ cd quotepro-acord-microservice
 2. Install Requirements
 
 pip install flask
+
 3. Run the Server
 
 python main.py
+
 📮 How to Use
 Endpoint
 
