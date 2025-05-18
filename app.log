@@ -1,0 +1,28 @@
+2025-05-19 00:23:56,864 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-19 00:23:56,864 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-19 00:23:56,866 - INFO -  * Restarting with stat
+2025-05-19 00:23:58,675 - WARNING -  * Debugger is active!
+2025-05-19 00:23:59,172 - INFO -  * Debugger PIN: 883-094-748
+2025-05-19 00:26:08,758 - INFO - 127.0.0.1 - - [19/May/2025 00:26:08] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-19 00:26:09,361 - INFO - 127.0.0.1 - - [19/May/2025 00:26:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-19 00:27:52,975 - INFO - 127.0.0.1 - - [19/May/2025 00:27:52] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-05-19 00:28:40,573 - INFO - 127.0.0.1 - - [19/May/2025 00:28:40] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-05-19 00:30:43,027 - INFO - 127.0.0.1 - - [19/May/2025 00:30:43] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-05-19 00:30:51,156 - INFO - 127.0.0.1 - - [19/May/2025 00:30:51] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-05-19 00:31:37,620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-19 00:31:37,620 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-19 00:31:37,620 - INFO -  * Restarting with stat
+2025-05-19 00:31:37,959 - WARNING -  * Debugger is active!
+2025-05-19 00:31:37,974 - INFO -  * Debugger PIN: 883-094-748
+2025-05-19 00:31:53,073 - INFO - 127.0.0.1 - - [19/May/2025 00:31:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-19 00:31:53,757 - INFO - 127.0.0.1 - - [19/May/2025 00:31:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-19 00:33:07,947 - INFO - Received valid request: {'policyNumber': 'QP-98765', 'insured': {'name': 'Alice Doe', 'address': '123 Test Street'}, 'vehicle': {'make': 'Toyota', 'model': 'Corolla', 'year': 2020}}
+2025-05-19 00:33:07,947 - INFO - Conversion successful
+2025-05-19 00:33:07,948 - INFO - 127.0.0.1 - - [19/May/2025 00:33:07] "POST /convert HTTP/1.1" 200 -
+2025-05-19 00:36:02,897 - INFO - 127.0.0.1 - - [19/May/2025 00:36:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-19 00:36:03,721 - INFO - 127.0.0.1 - - [19/May/2025 00:36:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-19 00:36:17,764 - INFO - 127.0.0.1 - - [19/May/2025 00:36:17] "[31m[1mGET /convert HTTP/1.1[0m" 405 -
+2025-05-19 00:40:23,954 - INFO -  * Detected change in 'C:\\Users\\vinay\\OneDrive\\Desktop\\quotepro_to_acord_microservice\\main.py', reloading
+2025-05-19 00:40:24,112 - INFO -  * Restarting with stat
