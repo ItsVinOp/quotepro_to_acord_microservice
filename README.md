@@ -37,9 +37,6 @@ project/
 ├── main.py # Flask app
 └── README.md # This file
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -47,34 +44,26 @@ Edit
 
 #### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/quotepro-acord-microservice.git
 cd quotepro-acord-microservice
 2. Install Requirements
-bash
-Copy
-Edit
+
 pip install flask
 3. Run the Server
-bash
-Copy
-Edit
+
 python main.py
 📮 How to Use
 Endpoint
-bash
-Copy
-Edit
+
+
 POST http://localhost:5000/convert
 Headers
-pgsql
-Copy
-Edit
+
 Content-Type: application/json
 Sample Request Body
 json
-Copy
-Edit
+
 {
   "policy_number": "QP-98765",
   "customer": {
@@ -93,9 +82,7 @@ Edit
 🧪 Testing
 Use Postman or curl:
 
-bash
-Copy
-Edit
+
 curl -X POST http://localhost:5000/convert \
 -H "Content-Type: application/json" \
 -d '{
